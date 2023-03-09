@@ -1,0 +1,6 @@
+﻿namespace classes
+{
+    interface IPhone
+    {
+    }
+}

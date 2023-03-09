@@ -1,0 +1,6 @@
+﻿namespace Interface
+{
+    interface IProduct
+    {
+    }
+}

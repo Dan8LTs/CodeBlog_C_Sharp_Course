@@ -1,0 +1,6 @@
+﻿namespace classes
+{
+    class Samsung
+    {
+    }
+}
