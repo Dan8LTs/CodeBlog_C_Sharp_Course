@@ -24,7 +24,7 @@ namespace OOП
 
             Person d = p;
             Console.WriteLine(p.LastName);
-            Programmer dd = (Programmer)p;
+            Programmer dd = (Programmer)d;
 
             Console.WriteLine(dd.FirstName);
             Console.WriteLine(dd.Specialisation);

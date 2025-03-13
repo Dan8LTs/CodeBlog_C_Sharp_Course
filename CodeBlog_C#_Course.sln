@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unsafe Code", "Unsafe Code\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localisation", "Localisation\Localisation.csproj", "{C18D93E9-E321-487F-81F0-8249909A8C6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly_Signature", "Assembly_Signature\Assembly_Signature.csproj", "{900CE0B8-AED8-46CE-86AF-4449313E0536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{C18D93E9-E321-487F-81F0-8249909A8C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C18D93E9-E321-487F-81F0-8249909A8C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C18D93E9-E321-487F-81F0-8249909A8C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900CE0B8-AED8-46CE-86AF-4449313E0536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900CE0B8-AED8-46CE-86AF-4449313E0536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900CE0B8-AED8-46CE-86AF-4449313E0536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900CE0B8-AED8-46CE-86AF-4449313E0536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
