@@ -1,24 +1,24 @@
 ﻿using Reference_Value_Types;
 
 /*
-Место хранения данных
-    Значимые типы: В стеке или в месте объявления.
-    Ссылочные типы: В куче
-Что хранит переменная
-    Значимые типы: Само значение.
-    Ссылочные типы: Адрес объекта в памяти.
-Поведение при присваивании
-    Значимые типы: Создается независимая копия.
-    Ссылочные типы: Копируется ссылка.
-Возможность иметь значение null
-    Значимые типы: Не могут быть null (кроме Nullable<T>).
-    Ссылочные типы: Могут быть null.
-Поддержка наследования
-    Значимые типы: Не поддерживают наследование (кроме реализации интерфейсов).
-    Ссылочные типы: Поддерживают наследование.
-Примеры
-    Значимые типы: int, double, bool, struct, enum.
-    Ссылочные типы: class, string, array, delegate, object
+Data storage location    
+    Value types: On the stack or at the place of declaration.
+    Reference types: In the heap
+What the variable stores
+    Value types: The actual value.
+    Reference types: The address of the object in memory.
+Behavior on assignment
+    Value types: An independent copy is created.
+    Reference types: The reference is copied.
+Ability to have a null value
+    Value types: Cannot be null (except Nullable<T>).
+    Reference types: Can be null.
+Support for inheritance
+    Value types: Do not support inheritance (except interface implementation).
+    Reference types: Support inheritance.
+Examples
+    Value types: int, double, bool, struct, enum.
+    Reference types: class, string, array, delegate, object
 */
 
 Str str1 = new Str() { x = 5 };
