@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace @operator
-{  
+{
     //нельзя создать экземпляр
     public abstract class Product
     {

@@ -8,7 +8,7 @@ namespace Map_dictionary_
     {
         private List<Item<TKey, TValue>> Elements = new List<Item<TKey, TValue>>();
         private List<TKey> Keys = new List<TKey>();
-        public FirstMap() {  }
+        public FirstMap() { }
         public void Add(Item<TKey, TValue> item)
         {
             if (!Keys.Contains(item.Key))

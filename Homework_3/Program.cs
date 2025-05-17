@@ -10,7 +10,7 @@ namespace Homework_3
             int n = Convert.ToInt32(Console.ReadLine());
             int s = 0;
             Console.WriteLine();
-            for (int i = 7; i <= n; i ++)
+            for (int i = 7; i <= n; i++)
             {
                 if (i % 3 == 0)
                 {

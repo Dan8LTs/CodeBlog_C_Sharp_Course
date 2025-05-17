@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 
 namespace ClientTCP
 {
@@ -54,7 +51,7 @@ namespace ClientTCP
                 var message = Console.ReadLine();
                 var serverEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 8086);
                 udpSocket.SendTo(Encoding.UTF8.GetBytes(message), udpEndPoint);
-                
+
                 var buffer = new byte[256];
                 var size = 0;
                 var data = new StringBuilder();
@@ -68,7 +65,7 @@ namespace ClientTCP
                 Console.WriteLine(data);
                 Console.ReadLine();
             }
-            
+
         }
     }
 }

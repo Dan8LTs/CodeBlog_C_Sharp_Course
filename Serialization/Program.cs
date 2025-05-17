@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 namespace Serialisation
 {
     class Program
-    { 
+    {
         // Есть несколько видов сериализации(перевода файлов и т.п в бинарный код): Soap, Bin, Xml.
         static void Main(string[] args)
         {
