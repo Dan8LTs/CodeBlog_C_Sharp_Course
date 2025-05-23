@@ -51,5 +51,23 @@
                 return DateTime.Now.Year - age;
             }
         }
+
+        public Person() { }
+        public Person(string name)
+        {
+            if (!string.IsNullOrWhiteSpace(name))
+            {
+                this.name = name;
+            }
+            else
+            {
+                throw new ArgumentNullException("name is empty");
+            }
+        }
+
+        public override string ToString()
+        {
+            return name;
+        }
     }
 }
