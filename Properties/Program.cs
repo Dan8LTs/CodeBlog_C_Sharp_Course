@@ -28,6 +28,10 @@
                 Console.WriteLine($"Bit {i} is {(ba[i] ? "On" : "Off")}.");
             }
 
+
+            Console.WriteLine();
+
+
             // инициализатор объекта
             Person p2 = new Person("Maxim") { Age = 42, Profession = "mathematician" };
             var p3 = new Person("George");
@@ -45,7 +49,7 @@
                 }
             };
 
-            foreach (var person in community.People)
+            foreach (var person in community)
             {
                 Console.WriteLine(person);
             }
@@ -58,6 +62,31 @@
 
             var dict2 = new Dictionary<string, int>();
             dict2.Add("Eugene", 14);
+
+
+            Console.WriteLine();
+
+
+            // анонимный тип
+            var item = new { Name = "Detroit: become human", ReleaseYear = 2018 };
+            // автоматически создаётся аксессор get, класс, приватные поля, методы GetHashCode(), ToString(), Equals() 
+            // нельзя передавать аргументом
+
+            Console.WriteLine($"Game 1: {item.Name}! Release year: {item.ReleaseYear}");
+
+            string Author = "Dan8LTs";
+            // экземпляры одного анонимного типа
+            var report = new { Author, Text = "Bugs fixed", DateTime.Now.Year };
+            var report2 = new { Author, Text = "Optimized", DateTime.Now.Year };
+            var list = new[] { report, report2 };
+            foreach (var el in list)
+            {
+                Console.WriteLine(el);
+            }
+
+            report = report2;
+            Console.WriteLine(report.Equals(report2));
+            Console.WriteLine(report.Author + " " + report.Text + " " + report.Year);
         }
     }
 }
